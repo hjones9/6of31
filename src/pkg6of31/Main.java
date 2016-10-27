@@ -17,15 +17,14 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Scanner reader=new Scanner(System.in);
+        Scanner reader = new Scanner(System.in);
         System.out.println("Enter a whole number");
-        int y=reader.nextInt();
-        
-        for(int q= 0; q<=y; q++){
-            System.out.println(q*2);
+        int input = reader.nextInt();
+
+        for (int q = 0; q <= input; q++) {
+            System.out.println(q * 2);
         }
-        
-        // TODO code application logic here
+
     }
-    
+
 }
